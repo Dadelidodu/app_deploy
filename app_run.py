@@ -5,7 +5,7 @@
 import streamlit as st
 import io
 import pandas as pd
-from utils.openspace import Openspace
+from openspace import Openspace
 
 def main():
 

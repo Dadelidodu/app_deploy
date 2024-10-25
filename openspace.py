@@ -2,8 +2,7 @@
 # Importing class Table from table.py file
 
 
-from utils.table import Table, Seat
-from utils.file_utils import name_list
+from table import Table, Seat
 import random
 import pandas as pd
 
@@ -35,7 +34,7 @@ class Openspace:
             key_name = F"Table {x+1}"
             self.dictionary[key_name] = []
 
-    def organize(self, names: list = name_list):
+    def organize(self, names: list):
         """
         Function to asign a name in every "seat" of every "table" in a random way.
 
